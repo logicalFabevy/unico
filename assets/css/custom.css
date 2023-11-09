@@ -1,6 +1,6 @@
 :root{
     --txt-color-primary:rgba(0, 0, 0, 0.8);
-    --txt-color-secondary:#999999;
+    --txt-color-secondary:#777;
     --primary-color:#ff914c;
     --secondary-color:#2a3574;
 }
@@ -61,11 +61,6 @@ ul{
     padding: 0;
     margin: 0;
 }
-li{
-    color: var(--txt-color-secondary);
-    line-height: 22px;
-    margin-bottom: 10px;
-}
 a {
     margin:0;
     padding:0;
@@ -111,6 +106,13 @@ h6{
 p{
     color: var(--txt-color-secondary);
     line-height: 22px;
+    margin-bottom: 20px;
+}
+
+li{
+    color: var(--txt-color-secondary);
+    line-height: 22px;
+    margin-bottom: 10px;
 }
 
 
@@ -214,7 +216,7 @@ Page section --------------------------*/
     line-height: 1.2;
     margin-bottom: 15px;
 }
-.section-title p{
+.section-title > p{
     color: var(--txt-color-secondary);
     margin-bottom: 30px;
 }

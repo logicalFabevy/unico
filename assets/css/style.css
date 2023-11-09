@@ -1170,6 +1170,25 @@ Service section  -------------------------*/
 #p-img-3{
 	background-image: url("../images/service-3.jpg");
 }
+#p-img-4{
+	background-image: url("../images/sorting-2.jpg");
+}
+#p-img-5{
+	background-image: url("../images/Supply.webp");
+}
+#product-img-1{
+	background-image: url("../images/Sans-bios.jpg");
+}
+#product-img-2{
+	background-image: url("../images/Recyclebin.jpg");
+}
+#product-img-3{
+	background-image: url("../images/Block-chain.jpg");
+}
+
+.card-img img{
+	height: 40vh;
+}
 .services_img img{
 	width: 100%;
 	transform:scale(2) translateY(25px);
@@ -1180,7 +1199,7 @@ Service section  -------------------------*/
 .services_details h3{
 	padding-top:15px;
 	padding-bottom: 20px;
-	font-weight: 400;
+	font-weight: 700;
 	font-size: 25px; 
 }
 .services_details .list_services_bx li{
@@ -1240,7 +1259,7 @@ Service section  -------------------------*/
 	background-size: cover;
 }
 .customer_supot h3{
-	font-size: 30px;
+	font-size: 28px;
 	margin-bottom: 20px;
 	color: #fff;
 }
@@ -1473,4 +1492,16 @@ Contacts section  -------------------------*/
 	font-size: 16px;
 	color: var(--txt-color-secondary);
    margin-top: 10px;
+}
+.card-contact{
+	box-shadow: 0 0 2px #ff914c;
+    padding: 10px;
+    height: 100%;
+    margin-bottom: 19px;
+}
+.card-contact i{
+	font-size: 30px;
+    padding-bottom: 15px;
+    padding-top: 20px;
+    color: #ff914c;x
 }

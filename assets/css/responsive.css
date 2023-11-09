@@ -188,6 +188,10 @@
 		opacity: 0.40;
 		padding-bottom: 40px;
 	}
+	.card-contact{
+		margin-bottom: 15px;
+	}
+
 }
 @media(min-width:767px) and (max-width:992px){
 	.banner-img{
@@ -292,5 +296,4 @@
 		display: none;
 	} */
 }
-
 
